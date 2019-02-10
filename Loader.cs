@@ -7,6 +7,7 @@ using UnityEngine;
 [ExecuteInEditMode, RequireComponent(typeof(ScriptLoader), typeof(MeshRenderer), typeof(MeshFilter))]
 public class Loader : MonoBehaviour
 {
+    [Tooltip("해당 프리팹이 종료시 초기화 합니다.")]
     public bool ResetComponent;
     public string ScriptFile;
     public string MeshFile;
